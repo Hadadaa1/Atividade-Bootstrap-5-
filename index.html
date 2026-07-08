@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechPortal - O seu portal de tecnologia</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <style>
+        body {
+            padding-top: 56px;
+        }
+        .placeholder-img {
+            background: linear-gradient(135deg, #6c757d 0%, #343a40 100%);
+            height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+        }
+        .hero-img {
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://picsum.photos/1200/500') no-repeat center center;
+            background-size: cover;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">TECHPORTAL</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" href="#">Início</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Mundo</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Tecnologia</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Ciência</a></li>
+                </ul>
+                <form class="d-flex me-2" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Pesquisar..." aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit"><i class="bi bi-search"></i></button>
+                </form>
+                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#newsletterModal">Assinar Newsletter</button>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-img py-5 mb-4">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-8">
+                    <span class="badge bg-danger mb-2">Destaque Principal</span>
+                    <h1 class="display-4 fw-bold">Inteligência Artificial Generativa Revoluciona o Mercado de Trabalho em 2026</h1>
+                    <p class="lead">Novas ferramentas automatizam processos complexos e abrem espaço para carreiras focadas em curadoria digital e engenharia de prompt avançada.</p>
+                    <a href="#" class="btn btn-primary btn-lg">Ler mais</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container mb-5">
+        <div class="row">
+            
+            <section class="col-lg-8">
+                <h2 class="mb-4 pb-2 border-bottom">Últimas Notícias</h2>
+                
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <article class="card h-100 shadow-sm">
+                            <img src="https://picsum.photos/400/250?random=1" class="card-img-top" alt="Notícia 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Novos processadores quânticos chegam ao mercado de servidores</h5>
+                                <p class="card-text">A computação quântica dá o seu primeiro passo comercial com o processamento de dados em larga escala.</p>
+                                <a href="#" class="btn btn-sm btn-outline-primary">Ler mais</a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-md-6">
+                        <article class="card h-100 shadow-sm">
+                            <img src="https://picsum.photos/400/250?random=2" class="card-img-top" alt="Notícia 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Smartphone dobrável triplo redefine o conceito de portabilidade</h5>
+                                <p class="card-text">Fabricantes apostam em telas que dobram em três partes, transformando telemóveis em tablets completos.</p>
+                                <a href="#" class="btn btn-sm btn-outline-primary">Ler mais</a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-md-6">
+                        <article class="card h-100 shadow-sm">
+                            <img src="https://picsum.photos/400/250?random=3" class="card-img-top" alt="Notícia 3">
+                            <div class="card-body">
+                                <h5 class="card-title">Cidades inteligentes adotam redes 6G experimentais</h5>
+                                <p class="card-text">A latência zero permite que frotas inteiras de veículos autónomos coordenem o trânsito em tempo real.</p>
+                                <a href="#" class="btn btn-sm btn-outline-primary">Ler mais</a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-md-6">
+                        <article class="card h-100 shadow-sm">
+                            <img src="https://picsum.photos/400/250?random=4" class="card-img-top" alt="Notícia 4">
+                            <div class="card-body">
+                                <h5 class="card-title">Baterias de estado sólido dobram autonomia de carros elétricos</h5>
+                                <p class="card-text">A nova tecnologia promete recargas completas em menos de 5 minutos e maior segurança contra incêndios.</p>
+                                <a href="#" class="btn btn-sm btn-outline-primary">Ler mais</a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-md-6">
+                        <article class="card h-100 shadow-sm">
+                            <img src="https://picsum.photos/400/250?random=5" class="card-img-top" alt="Notícia 5">
+                            <div class="card-body">
+                                <h5 class="card-title">Realidade Mista ganha espaço no ecossistema corporativo</h5>
+                                <p class="card-text">Reuniões com avatares fotorrealistas e manipulação de hologramas 3D tornam-se o novo padrão de escritórios.</p>
+                                <a href="#" class="btn btn-sm btn-outline-primary">Ler mais</a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-md-6">
+                        <article class="card h-100 shadow-sm">
+                            <img src="https://picsum.photos/400/250?random=6" class="card-img-top" alt="Notícia 6">
+                            <div class="card-body">
+                                <h5 class="card-title">Marcos regulatórios globais sobre privacidade de dados na Web3</h5>
+                                <p class="card-text">Entenda o impacto das novas leis internacionais sobre a custódia e propriedade de dados descentralizados.</p>
+                                <a href="#" class="btn btn-sm btn-outline-primary">Ler mais</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <aside class="col-lg-4 mt-5 mt-lg-0">
+                <div class="bg-light p-4 rounded mb-4 shadow-sm">
+                    <h4 class="mb-3">Notícias Mais Lidas</h4>
+                    <ol class="list-group list-group-numbered list-group-flush">
+                        <li class="list-group-item d-flex justify-content-between align-items-start bg-transparent">
+                            <div class="ms-2 me-auto">
+                                <div class="fw-bold">Preços de hardware caem 20%</div>
+                                Análise do mercado global de chips.
+                            </div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start bg-transparent">
+                            <div class="ms-2 me-auto">
+                                <div class="fw-bold">Novo Framework Web promete substituir o React</div>
+                                Conheça a arquitetura focada em performance extrema.
+                            </div>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start bg-transparent">
+                            <div class="ms-2 me-auto">
+                                <div class="fw-bold">Exploração espacial privada</div>
+                                Sonda comercial envia primeiras imagens de Marte.
+                            </div>
+                        </li>
+                    </ol>
+                </div>
+
+                <div class="bg-light p-4 rounded mb-4 shadow-sm">
+                    <h4 class="mb-2">Acompanhe as Novidades</h4>
+                    <p class="text-muted small">Receba o nosso resumo semanal diretamente no seu e-mail.</p>
+                    <form>
+                        <div class="mb-3">
+                            <label for="sidebarEmail" class="form-label">E-mail</label>
+                            <input type="email" class="form-control" id="sidebarEmail" placeholder="nome@exemplo.com" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Inscrever</button>
+                    </form>
+                </div>
+
+                <div class="bg-light p-4 rounded shadow-sm">
+                    <h4 class="mb-3">Categorias</h4>
+                    <div class="d-flex flex-wrap gap-2">
+                        <a href="#" class="badge bg-secondary text-decoration-none">Hardware</a>
+                        <a href="#" class="badge bg-secondary text-decoration-none">Software</a>
+                        <a href="#" class="badge bg-secondary text-decoration-none">Mobile</a>
+                        <a href="#" class="badge bg-secondary text-decoration-none">Cibersegurança</a>
+                        <a href="#" class="badge bg-secondary text-decoration-none">IA</a>
+                        <a href="#" class="badge bg-secondary text-decoration-none">Gadgets</a>
+                    </div>
+                </div>
+            </aside>
+
+        </div>
+    </main>
+
+    <div class="modal fade" id="newsletterModal" tabindex="-1" aria-labelledby="newsletterModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="newsletterModalLabel">Assinar a nossa Newsletter</h5>
+                    <button type="button" class="btn-close" data-bs-shadow="none" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-content-body p-4">
+                    <form>
+                        <div class="mb-3">
+                            <label for="modalName" class="form-label">Nome Completo</label>
+                            <input type="text" class="form-control" id="modalName" placeholder="Seu nome" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="modalEmail" class="form-label">Endereço de E-mail</label>
+                            <input type="email" class="form-control" id="modalEmail" placeholder="nome@exemplo.com" required>
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="modalCheck" required>
+                            <label class="form-check-label text-muted small" for="modalCheck">Aceito os termos de privacidade e concordo em receber comunicações semanais.</label>
+                        </div>
+                        <div class="d-flex justify-content-end gap-2">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                            <button type="submit" class="btn btn-primary">Submeter Inscrição</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-light py-4 mt-auto">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    <p class="mb-1">&copy; 2026 TechPortal. Todos os direitos reservados.</p>
+                    <nav class="small">
+                        <a href="#" class="text-light text-decoration-none me-3">Sobre Nós</a>
+                        <a href="#" class="text-light text-decoration-none me-3">Contacto</a>
+                        <a href="#" class="text-light text-decoration-none">Política de Privacidade</a>
+                    </nav>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <a href="#" class="text-light me-3 fs-4"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="text-light me-3 fs-4"><i class="bi bi-instagram"></i></a>
+                    <a href="#" class="text-light me-3 fs-4"><i class="bi bi-twitter-x"></i></a>
+                    <a href="#" class="text-light fs-4"><i class="bi bi-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
